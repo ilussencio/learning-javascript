@@ -1,6 +1,6 @@
+
+
 body {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     background-color: #29bd9b;
     font-family: "Roboto", sans-serif;
@@ -27,8 +27,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-    background-color: #fefefe;
+    border-radius: 3px;
     width: 400px;
 }
 
@@ -39,35 +38,79 @@ a{
     color: white;
     width: 100%;
     font-size: 30px;
-    border-radius: 10px 10px 0 0;
-}
-
-input{
-    font-size: 17px;
-    padding: 10px;
-    margin: 10px 0;
-    color: #999999;
+    border-radius: 5px 5px 0 0;
+    font-weight: 900;
+    word-spacing: 2px;
 }
 
 #form{
-    width: 350px;
+    width: 360px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #fff;
+}
+
+input{
+    height: 46px;
+    width: 100%;
+    border-radius: 0px 5px 5px 0;
+    border: 1px solid #d1d1d1;
+    padding-left: 10px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px 0 0 5px;
+    background-color: #21a083;
+}
+.input {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height: 40px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+#forgot{
+    font-size: 15px;
+    margin: 5px 0 20px 0;
+    word-spacing: 2px;
+    font-weight: 400;
 }
 
 #button{
-    width: 100%;
     background-color: #21a083;
     border: none;
     color: #fff;
     border-radius: 5px;
-    padding: 10px;
     font-weight: bold;
+    font-size: 18px;
+    font-weight: 900;
 }
 
-.icon{
-    background-color: #21a083;
-}
-#inp {
+#member{
     display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    font-size: 15px;
+    word-spacing: 3px;
+}
+
+.error{
+    color: red;
+    font-size: 13px;
+    margin: 5px 0;
+    word-spacing: 2px;
+    font-weight: 400;
+    padding-left: 45px;
 }
